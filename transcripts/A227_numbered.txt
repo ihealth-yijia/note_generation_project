@@ -1,0 +1,272 @@
+[T1] [SPEAKER 0]: PATIENT.
+[T2] [SPEAKER 0]: Hi nice to meet you.
+[T3] [SPEAKER 0]: How are you?
+[T4] [SPEAKER 1]: I'm pretty good.
+[T5] [SPEAKER 0]: You got a note?
+[T6] [SPEAKER 1]: Yes.
+[T7] [SPEAKER 0]: It's kind of wet, come on back.
+[T8] [SPEAKER 0]: @@@.
+[T9] [SPEAKER 0]: How are feeling today?
+[T10] [SPEAKER 1]: I am, I'm feeling good.
+[T11] [SPEAKER 0]: Oh yeah.
+[T12] [SPEAKER 1]: Feeling good.
+[T13] [SPEAKER 0]: Good, alright.
+[T14] [SPEAKER 0]: It's been a while since we've seen you by the way.
+[T15] [SPEAKER 1]: @@@ came in here not long ago I was having um breathing problems the last time.
+[T16] [SPEAKER 0]: That's right in late October right.
+[T17] [SPEAKER 1]: Right.
+[T18] [SPEAKER 0]: Um how has that been for you?
+[T19] [SPEAKER 1]: It's been going really good.
+[T20] [SPEAKER 0]: Okay.
+[T21] [SPEAKER 1]: I haven't had no problems.
+[T22] [SPEAKER 0]: No more breathing problems now.
+[T23] [SPEAKER 1]: No.
+[T24] [SPEAKER 0]: Okay, I'm going to pull up your chart for a moment.
+[T25] [SPEAKER 0]: Alright.
+[T26] [SPEAKER 0]: Okay when you were driving one time, you felt real lightheaded?
+[T27] [SPEAKER 1]: Light yes.
+[T28] [SPEAKER 0]: So a couple of things um, looks like your pressure's a little bit high.
+[T29] [SPEAKER 1]: Yeah that might be from, you know I woke up this morning with the intentions of doing other things.
+[T30] [SPEAKER 0]: Uh-huh.
+[T31] [SPEAKER 1]: And then it dawned on me that I had a doctor's appointment like around 7:30.
+[T32] [SPEAKER 0]: Uh-huh okay.
+[T33] [SPEAKER 1]: Then I had to drop everything.
+[T34] [SPEAKER 0]: Oh sure.
+[T35] [SPEAKER 1]: That I had planned to do this morning.
+[T36] [SPEAKER 0]: Okay.
+[T37] [SPEAKER 1]: And try to come out here to you know be on time at 8:30.
+[T38] [SPEAKER 0]: Uh-huh.
+[T39] [SPEAKER 1]: So I really have been rushing.
+[T40] [SPEAKER 0]: Okay.
+[T41] [SPEAKER 1]: Since I got up this morning and that may have contributed to my, you know blood pressure being so high.
+[T42] [SPEAKER 0]: Okay.
+[T43] [SPEAKER 1]: I hope that's it.
+[T44] [SPEAKER 0]: I want to see, I'm just trying to take a quick look and see you don’t have any other trouble with high blood pressure in the past.
+[T45] [SPEAKER 0]: Um well um @@@ a couple of things um, did you get the flu shot yet this year, a regular flu shot?
+[T46] [SPEAKER 1]: No I didn't.
+[T47] [SPEAKER 0]: Okay would you like one today?
+[T48] [SPEAKER 1]: Uh not today.
+[T49] [SPEAKER 0]: Today okay.
+[T50] [SPEAKER 0]: Will you come back for one?
+[T51] [SPEAKER 1]: Yes.
+[T52] [SPEAKER 0]: Okay.
+[T53] [SPEAKER 0]: Your blood pressure has been high in the past, though, these last couple of times.
+[T54] [SPEAKER 0]: I’ll check it again, we’ll have you sit up there.
+[T55] [SPEAKER 0]: Do you have any trouble.
+[T56] [SPEAKER 1]: Say um you know if it does seen a little high, I would like to get a chance to bring it down myself.
+[T57] [SPEAKER 0]: Oh yeah.
+[T58] [SPEAKER 1]: Okay.
+[T59] [SPEAKER 0]: Cause it doesn't look like you've had high blood pressures before this last time when you were having trouble breathing.@@@
+[T60] [SPEAKER 1]: Okay.
+[T61] [SPEAKER 0]: Any pains anywhere, any stiffness?
+[T62] [SPEAKER 1]: No, I'm feeling great.
+[T63] [SPEAKER 0]: You're feeling good alright, alright.
+[T64] [SPEAKER 1]: Feeling great.
+[T65] [SPEAKER 0]: Alright.
+[T66] [SPEAKER 1]: No I had a hip replacement and I think I got a follow-up on that on the 30th.
+[T67] [SPEAKER 0]: Okay.
+[T68] [SPEAKER 1]: And uh like I was telling the receptionist out there I've got to, I got two appointments on the 30th but I need to cancel one of them out.
+[T69] [SPEAKER 0]: Uh-huh.
+[T70] [SPEAKER 1]: So he said I can call in.
+[T71] [SPEAKER 0]: Yeah.
+[T72] [SPEAKER 1]: And set another date for one of them.
+[T73] [SPEAKER 0]: Hmm, let's see okay.
+[T74] [SPEAKER 0]: And @@@ anything else for you.
+[T75] [SPEAKER 0]: @@@ I just want to make sure you have all your medicine, @@@.
+[T76] [SPEAKER 0]: It looks like your cholesterol is a little high.
+[T77] [SPEAKER 1]: Uh-huh.
+[T78] [SPEAKER 0]: Back in July.
+[T79] [SPEAKER 1]: Right.
+[T80] [SPEAKER 0]: Okay.
+[T81] [SPEAKER 0]: So are you on any medication for that or?
+[T82] [SPEAKER 1]: None at all, none at all.
+[T83] [SPEAKER 1]: I try to stay active, doing things.
+[T84] [SPEAKER 1]: Trying to keep from @@@ going on medications.
+[T85] [SPEAKER 0]: Oh definitely, um I think the only thing that we need @@@.
+[T86] [SPEAKER 1]: Uh DOCTOR mentioned that.
+[T87] [SPEAKER 0]: Uh-huh.
+[T88] [SPEAKER 1]: At one point uh it might be time for me to go get a colonoscopy again.
+[T89] [SPEAKER 0]: Uh-huh.
+[T90] [SPEAKER 1]: But that was because I think what like three years ago I went through it and I had polyps then and I guess I kind of wasn't rushing to go through it again.
+[T91] [SPEAKER 0]: I know.
+[T92] [SPEAKER 0]: It's not the most pleasant kind of thing to do.
+[T93] [SPEAKER 1]: Well, um somewhere toward the you know first of next year.
+[T94] [SPEAKER 0]: We can do that.
+[T95] [SPEAKER 1]: Okay.
+[T96] [SPEAKER 0]: We can get that you know um started on you know.
+[T97] [SPEAKER 0]: I can go ahead and just put the order in the system.
+[T98] [SPEAKER 0]: They're not going to schedule you until after the first of the year.
+[T99] [SPEAKER 1]: Right.
+[T100] [SPEAKER 0]: So what we can do is get it set up and get the ball rolling on on that.
+[T101] [SPEAKER 0]: I can get you into the class again, kind of um like back in @@@ when you had it and um @@@ have you go to the class again, get the medicines.
+[T102] [SPEAKER 0]: So @@@ a few months.
+[T103] [SPEAKER 1]: Oh okay.
+[T104] [SPEAKER 0]: Yeah.
+[T105] [SPEAKER 0]: So that's why we mention it to you know so we can get that started.
+[T106] [SPEAKER 1]: Okay.
+[T107] [SPEAKER 0]: How's this?
+[T108] [SPEAKER 1]: Yeah.
+[T109] [SPEAKER 0]: Any chest pain, trouble getting around?
+[T110] [SPEAKER 1]: No.
+[T111] [SPEAKER 0]: Okay.
+[T112] [SPEAKER 1]: No, no.
+[T113] [SPEAKER 0]: Alright.
+[T114] [SPEAKER 0]: Hop on there, relax your arm and I'm going to take your blood pressure again.
+[T115] [SPEAKER 0]: Just give me your arm.
+[T116] [SPEAKER 1]: Okay.
+[T117] [SPEAKER 0]: You guys talked about the MRI right?
+[T118] [SPEAKER 0]: Of your brain where they found old strokes?
+[T119] [SPEAKER 1]: Right, right.
+[T120] [SPEAKER 1]: DOCTOR mentioned that to me.
+[T121] [SPEAKER 0]: Uh-huh.
+[T122] [SPEAKER 1]: When we went through it before and then he said something about how he was going to recheck and I was gonna get a phone call and then he recommended I go through a follow-up to make sure that everything's still.
+[T123] [SPEAKER 0]: @@@ a couple of things that um can cause the strokes and things like that.
+[T124] [SPEAKER 0]: High blood pressure and high cholesterol um so point where they actually found your strokes suggests that it could actually be a blood pressure thing more than the cholesterol.
+[T125] [SPEAKER 0]: The location of them, typically more @@@ with um high blood pressure.
+[T126] [SPEAKER 0]: So give me one second.
+[T127] [SPEAKER 0]: Relax your arm.
+[T128] [SPEAKER 0]: It's not as high as it was before.
+[T129] [SPEAKER 0]: @@@.
+[T130] [SPEAKER 0]: So it's coming down but it's still high um.
+[T131] [SPEAKER 0]: I'd like to check with DOCTOR cause one of the things is having the history of strokes that they found on the MRI we'd like to – our recommendation would be to keep it – the blood pressure a little lower.
+[T132] [SPEAKER 0]: Just because that’s the way to prevent future occurrences.
+[T133] [SPEAKER 0]: Um some of the things that um can help in terms of uh you know things you can to help keep your blood pressure under control is to try to avoid as much salt as you can.
+[T134] [SPEAKER 0]: Unfortunately a lot of the canned food and um things that come in packages have a lot of salt um, things that people get a restaurant often have a lot of salt because that’s what makes it taste good.
+[T135] [SPEAKER 1]: Right, right.
+[T136] [SPEAKER 0]: You know um but if you're going to buy – I don’t know who does the cooking in the house.
+[T137] [SPEAKER 1]: Um.
+[T138] [SPEAKER 0]: Who does you?
+[T139] [SPEAKER 1]: Mostly.
+[T140] [SPEAKER 0]: You mostly do it?
+[T141] [SPEAKER 1]: Yeah.
+[T142] [SPEAKER 0]: So getting @@@ sodium content um.
+[T143] [SPEAKER 0]: Try to use a little bit less, or when you’re cooking, don’t use as much salt but @@@.
+[T144] [SPEAKER 0]: I know it’s not going to taste as great when you're doing that but it can definitely help in terms of um lowering your blood pressure.
+[T145] [SPEAKER 1]: Okay.
+[T146] [SPEAKER 0]: Un give me some nice deep breaths.
+[T147] [SPEAKER 0]: Excellent.
+[T148] [SPEAKER 0]: @@@ Breathe normal.
+[T149] [SPEAKER 1]: Oh, normal.
+[T150] [SPEAKER 0]: @@@.
+[T151] [SPEAKER 0]: And you're walking around no problems?
+[T152] [SPEAKER 1]: No.
+[T153] [SPEAKER 1]: I think one of the things that caused this sleeping problem the last time.
+[T154] [SPEAKER 0]: Yeah.
+[T155] [SPEAKER 1]: I had taken a lot of vitamin pills cause I was coming down with a cold.
+[T156] [SPEAKER 0]: Okay.
+[T157] [SPEAKER 1]: And @@@ take a five vitamin pills.
+[T158] [SPEAKER 0]: Uh-huh.
+[T159] [SPEAKER 1]: The first time you take them you take four, the next time three, the next time you know two.
+[T160] [SPEAKER 0]: Uh-huh.
+[T161] [SPEAKER 1]: And then you come down to taking one.
+[T162] [SPEAKER 0]: That's interesting.
+[T163] [SPEAKER 0]: I don't know maybe.
+[T164] [SPEAKER 1]: If that you know.
+[T165] [SPEAKER 0]: I actually haven't heard of that um but you know it's hard cause we don't really have a good idea of what with the cold and stuff what do to.
+[T166] [SPEAKER 0]: Um sometimes one of the things that some people say that helps and has actually been studied is zinc, you know like over the counter zinc.
+[T167] [SPEAKER 1]: Zinc.
+[T168] [SPEAKER 0]: So uh-huh, so it's some people if you take it early, like when you first feel a sore throat coming on within 24 hours or something like that, sometimes it kind of shortens the duration of the cold.
+[T169] [SPEAKER 1]: Okay.
+[T170] [SPEAKER 0]: That's the only thing that's been actually like scientifically studied to really really help.
+[T171] [SPEAKER 0]: Mostly other things in terms they just kind of help the symptoms, the runny noses you know and the cough syrup and things like that.
+[T172] [SPEAKER 1]: Yeah.
+[T173] [SPEAKER 0]: Ultimately its our immune systems.
+[T174] [SPEAKER 1]: It just has to wear itself off.
+[T175] [SPEAKER 0]: Yeah, yeah.
+[T176] [SPEAKER 0]: But sometimes @@@ there is a study that says that zinc you know like will shorten the duration if you get it early enough.
+[T177] [SPEAKER 1]: Okay.
+[T178] [SPEAKER 0]: That's what they say.
+[T179] [SPEAKER 0]: That's the only thing I know.
+[T180] [SPEAKER 1]: Yeah.
+[T181] [SPEAKER 0]: So um.
+[T182] [SPEAKER 1]: Okay, @@@ something.
+[T183] [SPEAKER 0]: Oh okay well.
+[T184] [SPEAKER 1]: That's uh; don't have no kind of degree behind their name or anything like that.
+[T185] [SPEAKER 0]: That's okay, it's you know.
+[T186] [SPEAKER 1]: You people seem to say different stuff like that.
+[T187] [SPEAKER 0]: Whatever you know whatever works for you, I'm glad you're not coughing anymore.
+[T188] [SPEAKER 0]: Um yeah.
+[T189] [SPEAKER 0]: I think and you saw the eye doctors.
+[T190] [SPEAKER 0]: So if you know the concern that I have is you may and I know you don't want to take any medicines and you know you want to work on the blood pressure yourself.
+[T191] [SPEAKER 0]: Um I'd like to.
+[T192] [SPEAKER 1]: I’m going to say,you know I have an idea why my blood pressure is high today.
+[T193] [SPEAKER 0]: Uh-huh okay.
+[T194] [SPEAKER 1]: Because I got one of those little monitors at home.
+[T195] [SPEAKER 0]: Oh you do good.
+[T196] [SPEAKER 1]: Yeah so that's I take it from time to time and I just haven’t, I haven't used it in the past.
+[T197] [SPEAKER 0]: That okay.
+[T198] [SPEAKER 1]: About a week.
+[T199] [SPEAKER 0]: Sure um why don't we do this, if you have a monitor at home which is like perfect, exactly kind of what I was going for, let's and you come back when again?
+[T200] [SPEAKER 1]: @@@.
+[T201] [SPEAKER 0]: Just you have another appointment?
+[T202] [SPEAKER 1]: Probably about another week.
+[T203] [SPEAKER 0]: Another week okay, let's do this, let me see if we can get you scheduled for the pharmacist, to see the pharmacist which is a little bit easier to get in to to see them.
+[T204] [SPEAKER 0]: I want you to take your blood pressure @@@ every day in the morning at the same time or whatever and for a week until you see the pharmacist and then you can make a log of what your blood pressure's have been doing and then if they're still running high then maybe consider starting a medication, at a really low dose that’s a once a day thing.
+[T205] [SPEAKER 0]: But only if it's high but if your logs shows you know that everything's okay and you know its low and all that stuff then you won't need anything to help it.
+[T206] [SPEAKER 0]: Does that sound like a good plan?
+[T207] [SPEAKER 1]: Sounds good.
+[T208] [SPEAKER 0]: Okay.
+[T209] [SPEAKER 1]: That's good.
+[T210] [SPEAKER 1]: That's good.
+[T211] [SPEAKER 1]: Um I'm going to schedule an appointment to see the orthopedist.
+[T212] [SPEAKER 0]: Okay.
+[T213] [SPEAKER 1]: I am scheduled for the 30th and I have a court appearance on the 30ths as well.
+[T214] [SPEAKER 0]: Okay.
+[T215] [SPEAKER 1]: Same time, 9:30.
+[T216] [SPEAKER 0]: Okay.
+[T217] [SPEAKER 1]: And I'm going to call them up.
+[T218] [SPEAKER 0]: Reschedule.
+[T219] [SPEAKER 1]: And reschedule to see them and if I could work it out where I could come out.
+[T220] [SPEAKER 0]: The same day to see the pharmacist
+[T221] [SPEAKER 1]: Yeah.
+[T222] [SPEAKER 0]: @@@ yep that's fine.
+[T223] [SPEAKER 0]: We'll try to get that taken care of.
+[T224] [SPEAKER 0]: Give me one second.
+[T225] [SPEAKER 1]: Oh.
+[T226] [SPEAKER 0]: Let me just talk to DOCTOR real quick.
+[T227] [SPEAKER 1]: Okay.
+[T228] [SPEAKER 0]: Alright and I'll be right back.
+[T229] [SPEAKER 0]: (DOCTOR OUT:  42:49  DOCTOR IN:  48:25)
+[T230] [SPEAKER 0]: Okie doke.
+[T231] [SPEAKER 0]: Uh DOCTOR agreed we'll have you try the home monitoring for a little while and so you know bring in the sheet and then see the pharmacist and at that time if we do need to start the medicines then we will recommend it.
+[T232] [SPEAKER 1]: Right.
+[T233] [SPEAKER 0]: Yeah and the only reason we're doing that is because you have had a the old strokes that we saw on the head scan and we just want to make sure that that doesn’t happen again, okay.
+[T234] [SPEAKER 0]: So does that sound like a plan?
+[T235] [SPEAKER 1]: Yeah.
+[T236] [SPEAKER 0]: Cause otherwise you know we'll just let it be but the problem with high blood pressure is it can do damage to other parts.
+[T237] [SPEAKER 0]: Okay.
+[T238] [SPEAKER 0]: That's it.
+[T239] [SPEAKER 0]: You can go give this to the receptionist.
+[T240] [SPEAKER 1]: Oh okay.
+[T241] [SPEAKER 1]: Okay.
+[T242] [SPEAKER 0]: And so and then they'll mail you a letter about the colonoscopy screening and all of that, like they did last time.
+[T243] [SPEAKER 1]: Oh okay.
+[T244] [SPEAKER 1]: Okay.
+[T245] [SPEAKER 0]: And I'm going to give you a form, let me see.
+[T246] [SPEAKER 1]: I just got to work on trying to quit salt to bring it down.
+[T247] [SPEAKER 0]: Low salt.
+[T248] [SPEAKER 1]: Low salt.
+[T249] [SPEAKER 0]: Low salt.
+[T250] [SPEAKER 1]: Okay.
+[T251] [SPEAKER 1]: @@@, that's a problem.
+[T252] [SPEAKER 0]: Yep we don't want you to have a stroke cause that happened to one of my patients just two months ago and it was kind of sad because now he has to walk with a cane and I don't you know so.
+[T253] [SPEAKER 1]: Oh no.
+[T254] [SPEAKER 0]: Yeah exactly especially with your history of hip replacement and all those things you know.
+[T255] [SPEAKER 1]: Yeah.
+[T256] [SPEAKER 0]: We can't replace some of those, @@@ brain.
+[T257] [SPEAKER 1]: Exactly.
+[T258] [SPEAKER 1]: So I'll call up, I'm going to call the Ortho and reschedule.
+[T259] [SPEAKER 0]: They may be able to do this, actually do it right at the front.
+[T260] [SPEAKER 0]: You can have them see if there's another time @@@ pharmacist in two weeks @@@ same day as pharma.
+[T261] [SPEAKER 1]: Uh-huh.
+[T262] [SPEAKER 0]: Here's the form.
+[T263] [SPEAKER 0]: Okay and I'll see you in three to four months @@@.
+[T264] [SPEAKER 0]: Okay and then @@@.
+[T265] [SPEAKER 1]: Okay.
+[T266] [SPEAKER 0]: Okay.
+[T267] [SPEAKER 1]: Okay thank you so much.
+[T268] [SPEAKER 0]: Okay.
+[T269] [SPEAKER 0]: Take care PATIENT.
+[T270] [SPEAKER 1]: Okay.
+[T271] [SPEAKER 0]: @@@.
+[T272] [SPEAKER 1]: Okay.

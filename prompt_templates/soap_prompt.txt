@@ -1,0 +1,237 @@
+"🚨 MANDATORY: Read this rule 3 times before writing:
+SUBJECTIVE = Patient/family SAYS  |  OBJECTIVE = Doctor SEES/MEASURES
+
+You are tasked with writing a medical SOAP note.
+
+## COMPLETE SOAP NOTE TEMPLATE - FOLLOW EXACTLY:
+
+**Subjective:**
+- [Mention reasons for visit, chief complaints such as requests, symptoms etc] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Mention Duration/timing/location/quality/severity/context of complaint] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Mention List anything that worsens or alleviates the symptoms, including self-treatment attempts and their effectiveness] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Progression: Mention describe how the symptoms have changed or evolved over time] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Previous episodes: Mention detail any past occurrences of similar symptoms, including when they occurred, how they were managed, and the outcomes] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Mention Impact on daily activities: explain how the symptoms affect the patient's daily life, work, and activities.] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Associated symptoms: Mention any other symptoms (focal and systemic) that accompany the reasons for visit & chief complaints] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Mention Contributing factors including past medical and surgical history, investigations, treatments, relevant to the reasons for visit and chief complaints]
+- [Mention Social history that may be relevant to the reasons for visit and chief complaints.] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Mention Family history that may be relevant to the reasons for visit and chief complaints.] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Mention Exposure history] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Mention Immunization history & status] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+- [Other: Mention Any other relevant subjective information] (only include if explicitly mentioned in the transcript, contextual notes or clinical note, otherwise leave blank)
+
+**Objective:**
+- [Vital signs: Record ONLY values measured in hospital (e.g., ""BP 150/90, repeat 140/85""), or note ""elevated/high"" with context if specific numbers not given. Patient-reported home values go in Subjective]
+- [Physical examination: Document specific examination techniques and findings (e.g., ""Lung auscultation: clear breath sounds bilaterally""), including normal findings when stated]
+- [Review of prior results: Include any lab/imaging results referenced during the encounter with timeframes]
+- [Physician observations: Document patient's appearance, behavior, and functional status as observed]
+
+**Assessment:**
+- [Likely diagnosis: Include all diagnostic determinations made during encounter, both positive findings (e.g., "spinal stenosis confirmed on examination") and negative findings (e.g., "fracture ruled out clinically"). Record diagnostic criteria and thresholds discussed (e.g., "fasting glucose 135 mg/dL exceeds diabetes diagnostic threshold of 126 mg/dL")]
+- [Differential diagnosis（include all clinically relevant information discussed in the transcript, contextual notes or clinical note, otherwise leave blank)]
+
+**Plan:**
+- [Record specific clinical targets discussed with patient (e.g., "discussed A1c goal of 6.5-7%" or "target BP <140/90")]
+- [Investigations planned (include all clinically relevant information discussed)]
+- [Treatment planned (include all clinically relevant information discussed)]
+- [Relevant other actions such as counselling, referrals etc (include all clinically relevant information discussed)]
+- [Include all clinical guidance, warnings about medication use, and emphasis on non-pharmacologic approaches]
+
+**(Never come up with your own patient details, assessment, plan, interventions, evaluation, and plan for continuing care - use only the transcript, contextual notes or clinical note as a reference for the information include in your note.)**
+
+**📝 EHR WRITING STANDARDS:**
+
+**Writing Perspective:**
+- Write from physician's first-person perspective for EHR documentation
+- Use active voice: ""Prescribed..."" ""Counseled..."" ""Discussed...""
+- Use passive voice when appropriate: ""Patient counseled on..."" ""Medication prescribed...""
+- Never use third-person: avoid ""doctor,"" ""physician,"" ""provider"" references
+
+**Correct EHR Writing Style:**
+✅ ""Counseled patient on low-sodium diet""
+✅ ""Prescribed Norco 5mg for pain management""  
+✅ ""Patient reports chest pain""
+✅ ""Blood pressure measured at 140/90""
+✅ ""Discussed risks and benefits of procedure""
+✅ ""Labs ordered to assess kidney function""
+✅ ""Patient advised to return if symptoms worsen""
+
+**Incorrect - Avoid Third Person:**
+❌ ""Doctor counseled patient on diet""
+❌ ""Physician prescribed medication""
+❌ ""Provider discussed risks""
+❌ ""The doctor noted...""
+❌ ""Doctor states...""
+❌ ""Physician contacted lab for additional studies""
+
+**Content Classification Examples:**
+
+**Subjective Examples:**
+✅ ""Patient reports daily headaches for 2 weeks""
+✅ ""States pain is 7/10, sharp, worse with movement""
+✅ ""Denies chest pain or shortness of breath""
+✅ ""Family history of diabetes in mother""
+✅ ""Reports taking medication as prescribed""
+✅ ""Describes work stress affecting sleep""
+
+**Objective Examples:**  
+✅ ""BP 140/90, HR 72, temp 98.6°F""
+✅ ""Lung sounds clear bilaterally on auscultation""
+✅ ""No acute distress observed""
+✅ ""Lab results: glucose 120 mg/dL""
+✅ ""Palpable mass in right lower quadrant""
+✅ ""Patient appears anxious during interview""
+
+**🚨 COMPLETENESS REQUIREMENTS:**
+**All Clinical Discussions Must Be Captured:**
+- Include ALL medical topics discussed during the encounter, including brief mentions and ""by the way"" comments
+- Document all preventive care discussions (vaccines, screenings, lifestyle counseling)
+- Record all medication discussions, including those declined or deferred
+- Include all follow-up planning discussions and scheduling conflicts mentioned
+- Document patient education provided by physician
+- Include physician's clinical reasoning and patient counseling when evident
+**For Partially Mentioned Information:**
+- If specific values are discussed but not clearly stated, note ""elevated"" or ""high"" with context
+- If examination findings are implied through physician actions, document what was performed
+- When physician references prior results, include the timeframe and general findings mentioned
+
+## 🚨 CRITICAL CONTENT CLASSIFICATION:
+**SUBJECTIVE = ALL patient/family reports, including:**
+- Functional status as described: ""patient reports difficulty walking"", ""family states dependent for ADLs""
+- Diet habits as reported: ""patient eats 3 meals/day"", ""family prepares meals"", ""reports low vegetables""
+- Sleep patterns as described: ""sleeps well"", ""reports restless nights""
+- Symptoms as reported: ""denies pain"", ""reports fatigue""
+- Medical history as stated: ""had surgery 2 years ago""
+- Weight/vitals as REPORTED by patient: ""patient states weight is 150 lbs""
+- Any medication use reported by the patient or family must go in the Subjective section, not Objective, unless verified by the clinician or chart. **IMPORTANT: Clearly distinguish between "currently taking" vs "discontinued" vs "unable to obtain" medications. When patient says "not taking pain meds" but mentions sleep medication, record both statements separately.**
+
+**Medication Documentation Standards:**
+- Record EXACTLY as stated in transcript - do not convert tablet counts to mg
+- If transcript says "half tablet twice daily" → write "half tablet twice daily"  
+- Only include mg if explicitly mentioned in transcript
+- NEVER assume standard drug strengths to add missing dosage information
+
+**OBJECTIVE = ONLY what doctor observes/measures/finds:**
+✅ "No abnormalities on abdominal examination"
+✅ "No tenderness elicited on palpation" 
+❌ NEVER include: Patient's self-reported findings during exam as physician findings
+❌ Wrong: "Mild tenderness noted" when doctor found nothing
+**If patient reports pain during self-examination but doctor finds nothing:**
+✅ Subjective: "Patient reports tenderness when self-palpating abdomen"
+✅ Objective: "No abnormalities on physician examination of abdomen"
+
+- Include specific vital signs and measurements when mentioned in the transcript
+- Document detailed physical examination findings rather than general statements
+- Record exact blood pressure readings if provided (e.g., ""Initial BP: [X/X], repeat BP: [X/X]"")
+- Specify examination techniques used (e.g., ""auscultation,"" ""palpation,"" ""inspection"")
+- Completed lab results with specific numbers from official reports
+- Current medication list (as documented medical facts)
+- Appearance/behavior observed during visit: ""appears comfortable"", ""no acute distress noted""
+
+**Assessment Section Precision:**
+- Use precise medical terminology that reflects the actual clinical findings
+- For historical conditions, specify ""prior"" or ""history of"" rather than assuming active diagnosis
+- When referencing imaging findings, use accurate descriptors (e.g., ""chronic cerebral infarcts on MRI"" rather than ""cerebrovascular accident"")
+- Distinguish between confirmed diagnoses and clinical impressions
+
+**Plan Section Completeness:**
+- Include all patient education topics discussed during the encounter
+- Document specific medication recommendations, dosages, and rationales when mentioned
+- Record all follow-up appointments and scheduling details discussed
+- Include preventive care discussions and patient counseling points
+- Note any alternative treatments or supplements mentioned by the physician
+- Document patient's expressed preferences and concerns that influence the treatment plan
+
+**Clinical Accuracy Standards:**
+- Ensure all medical terminology accurately reflects the conversation content
+- Maintain consistency between what was discussed and what is documented
+- Include relevant negative findings that were specifically assessed
+- Document the clinical reasoning behind management decisions when evident in the dialogue
+
+🚫 **NEVER PUT IN OBJECTIVE:**
+- ""Patient reports..."" or ""Family states..."" or ""Patient describes...""
+- Self-reported weight, blood pressure, or vital signs
+- Functional status descriptions from patient/family
+- Diet habits/Sleep pattern described by patient/family
+- Patient's own glucose readings or home monitoring results
+
+## VISIT TYPE CONSIDERATIONS:
+
+### **PHONE/VIDEO VISITS:**
+- Most information goes to Subjective (patient reports)
+- Objective section will be very minimal (usually medication review only)
+- Patient-reported vitals/weight go to Subjective, not Objective
+- Only include what doctor can actually observe via phone/video
+
+### **IN-PERSON VISITS:**
+- Objective section can include actual physical examination findings
+- Measured vital signs go to Objective
+- Observed appearance and behavior go to Objective
+
+🚨 FINAL REMINDER: 
+- Patient/family REPORTS = Subjective (even if about medical facts)
+- Doctor OBSERVES/MEASURES = Objective
+- When in doubt about classification, it probably belongs in Subjective
+
+**🎯 ACCURACY REMINDERS:**
+- Avoid adding details not mentioned (e.g., don't specify ""right hip"" if laterality not stated)
+- Use exact terminology from transcript when possible
+- If uncertain about details, use general terms rather than specific ones
+- 🚨 CRITICAL: When transcript shows medical clarification or correction, document the FINAL clarified information, not the initial misunderstanding
+
+**🔍 QUALITY CHECK - Before finalizing, ensure:**
+- No important clinical discussions were omitted from any section
+- All preventive care topics discussed are documented (vaccines, screenings, counseling)
+- All medication discussions included, even if declined
+- Patient's preferences and physician's recommendations are both captured
+- Follow-up planning and scheduling conflicts are documented
+- The note tells the complete story of what happened during the encounter
+
+**🔍 FINAL CLASSIFICATION CHECK:**
+Before submitting, verify EACH vital sign entry:
+- Is this what patient SAID or what doctor MEASURED?
+- If patient said it → Subjective
+- If doctor measured it → Objective
+- NEVER combine both in one statement
+- Did I add any mg dosages not explicitly mentioned in the transcript?
+
+Write the SOAP note now following the template and style guidelines above.
+
+📌 NOTE TRACING REQUIREMENTS – STRICT COMPLIANCE REQUIRED (REVISED)
+
+For EACH sentence in the SOAP note, do BOTH:
+
+1. **Transcript Line Index Tagging**  
+   - Use `[T#]` or ranges like `[T23–T25]`.  
+   - For non‑contiguous lines, use commas: `[T23–T25,T27,T30–T32]`.  
+   - Include **all** lines (patient or doctor) that informed this sentence.
+
+2. **Speaker Identification Tagging**  
+   - Immediately after the transcript tag, add **ONE** `[SPEAKER #]` to denote the **original source / narrative voice of the information in this sentence**.  
+   - If multiple sources are mixed, **split the sentence** so each has a single correct tag.  
+   - **Section–Speaker Consistency Rules:**  
+     - **Subjective:** tag must be patient/family (e.g., `[SPEAKER 1]`).  
+     - **Objective / Assessment / Plan:** tag must be clinician (e.g., `[SPEAKER 0]`).  
+   - You may still cite patient lines in `[T#]` to justify an Assessment/Plan statement, but keep the speaker tag as the clinician.
+
+3. **Sanity Checks (Model must self-verify)**  
+   - If a Subjective sentence has a clinician tag → reclassify or split.  
+   - If an Objective/Assessment/Plan sentence has a patient tag → reclassify or split.  
+   - Every sentence must have ≥1 `[T#]`; tagged speaker should logically match at least one of those lines’ true sources.
+
+4. **Output Strict Role Mapping at End of Note**  
+   - Title: **"Speaker Role Mapping"**.  
+   - List ONLY the speaker IDs that appear in `[SPEAKER #]` tags.  
+   - Unknown roles use `[UNKNOWN]`.  
+   - Do NOT list unused speakers.
+
+**✅ Example (Correct):**  
+Patient reports occasional bleeding and burning in the rectal area after long drives as a courier. [T124–T135][SPEAKER 1]  
+Hemorrhoids present on exam; not inflamed, steroids not required today. [T298–T304][SPEAKER 0]  
+Primary issue is BPH with incomplete emptying; symptoms worsened after stopping terazosin. [T69–T73,T361–T380][SPEAKER 0]
+
+**Speaker Role Mapping:**  
+[SPEAKER 0]: doctor  
+[SPEAKER 1]: patient
+
+the transcript is {transcript} write the soap note and Speaker Role Mapping now (your answer should start with "**Subjective")

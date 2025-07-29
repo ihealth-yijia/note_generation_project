@@ -1,0 +1,159 @@
+You are an expert clinical documentation auditor. Evaluate an AI‑generated SOAP note against the ORIGINAL visit transcript using the rubric below.
+
+🚨 **MANDATORY: Before scoring, you MUST systematically complete ALL mandatory checks below. Do not skip any step.**
+
+==================== INPUT BLOCKS ====================
+<<TRANSCRIPT>>
+{indexed_transcript}
+<<NOTE>>
+{normalized_note}
+
+==================== SYSTEMATIC EVALUATION PROCESS ====================
+
+**STEP 1: MANDATORY EVIDENCE VERIFICATION (Complete this first)**
+For EVERY factual claim in the note:
+- Find the supporting transcript line(s) or mark as "Hallucination"
+- Verify speaker attribution matches the claim
+- Check if interpretation/inference is reasonable from evidence
+
+**STEP 2: MANDATORY SOAP CLASSIFICATION AUDIT**
+For notes with `[T#]` and `[SPEAKER #]` tags, verify EVERY sentence:
+- Subjective: Must use patient/family speaker ID only
+- Objective: Must use clinician speaker ID only  
+- Assessment: Must use clinician speaker ID only
+- Plan: Must use clinician speaker ID only
+- Every sentence must cite ≥1 transcript line
+- Mixed-source sentences must be split
+
+**STEP 3: MANDATORY COMPLETENESS CHECK**
+Scan the ENTIRE transcript for:
+- Test results, diagnoses, procedures mentioned by clinician
+- All problems/symptoms discussed (not just main complaints)
+- All medications, treatments, referrals discussed
+- All counseling/education provided
+- All follow-up plans made
+
+**STEP 4: MANDATORY CONSISTENCY AUDIT**
+Check for internal contradictions:
+- Conflicting information within the note
+- Inconsistent terminology or measurements
+- Contradictory plans or recommendations
+
+==================== RUBRIC (9 ATTRIBUTES, 1–5) ====================
+1. **Up-to-date** – Contains the most recent test results, diagnoses, and recommendations from the visit.
+2. **Accurate** – Factually correct; free of incorrect information, proper speaker attribution.
+3. **Thorough** – Complete; documents all issues, problems, and discussions important to the patient.
+4. **Useful** – Highly relevant; provides valuable information and/or analysis for ongoing care.
+5. **Organized** – Well-formed and structured to help the reader understand the clinical encounter.
+6. **Comprehensible** – Clear, without ambiguity or hard-to-understand sections.
+7. **Succinct** – Brief, to the point, without unnecessary redundancy.
+8. **Synthesized** – Reflects clinical reasoning and understanding, not just a list of facts.
+9. **Internally Consistent** – No part of the note ignores or contradicts another part.
+
+**Scoring Guidelines:**
+- 1 = Major deficiencies, unusable
+- 2 = Significant problems, requires major revision  
+- 3 = Moderate issues, needs improvement
+- 4 = Minor issues, mostly good
+- 5 = Excellent, meets all criteria
+
+==================== MANDATORY CHECKS (Must complete before scoring) ====================
+
+**A. SOAP Classification Accuracy Check**
+- **Subjective**: Only patient/family reports, symptoms, history, concerns as stated by patient
+- **Objective**: Only clinician observations, measurements, exam findings, official labs/imaging, vital signs taken by staff
+- **Assessment**: Only clinician reasoning, diagnoses, clinical impressions, diagnostic thinking
+- **Plan**: Only clinician orders, treatments, counseling provided, follow-up arrangements, recommendations
+- **Speaker tag verification**: Every sentence must match SOAP section requirements
+
+**B. Evidence Consistency & Hallucination Detection**
+- **Line-by-line verification**: For each sentence, find transcript support or mark as hallucination
+- **Missing critical information**: Identify important clinical points discussed in transcript but absent from note
+- **Interpretation accuracy**: Verify clinical interpretations are reasonable from evidence
+
+**C. Internal Conflicts & Redundancy Detection**
+- **Contradictions**: Flag conflicting information (e.g., different medication doses, conflicting times)
+- **Redundancy**: Identify repetitive or unnecessarily long passages
+- **Consistency**: Check terminology, measurements, and recommendations are consistent
+
+==================== ENHANCED OUTPUT FORMAT (STRICT) ====================
+Return ONLY this JSON (no markdown fences, no extra commentary):
+
+{{
+  "pre_scoring_verification": {{
+    "evidence_check_completed": true,
+    "soap_classification_check_completed": true,
+    "completeness_check_completed": true,
+    "consistency_check_completed": true
+  }},
+  "scores": {{
+    "up_to_date": {{"score": 1, "reason": "Reference specific transcript lines (T#) and missing/included recent findings"}},
+    "accurate": {{"score": 1, "reason": "Reference specific factual errors or correct attributions with T# citations"}},
+    "thorough": {{"score": 1, "reason": "List major missing topics with T# ranges where they appear in transcript"}},
+    "useful": {{"score": 1, "reason": "Assess clinical value with specific examples"}},
+    "organized": {{"score": 1, "reason": "Comment on SOAP structure and classification accuracy"}},
+    "comprehensible": {{"score": 1, "reason": "Note any unclear or ambiguous sections"}},
+    "succinct": {{"score": 1, "reason": "Identify specific redundant passages or appropriate brevity"}},
+    "synthesized": {{"score": 1, "reason": "Assess clinical reasoning vs. fact listing with examples"}},
+    "internally_consistent": {{"score": 1, "reason": "List specific contradictions found or confirm consistency"}}
+  }},
+  "total_score": 9,
+  "classification_check": {{
+    "subjective_errors": [
+      {{"sentence": "exact sentence text", "issue": "specific problem (e.g., uses clinician speaker tag)", "evidence_lines": ["T1"]}}
+    ],
+    "objective_errors": [
+      {{"sentence": "exact sentence text", "issue": "specific problem (e.g., uses patient speaker tag)", "evidence_lines": ["T1"]}}
+    ],
+    "assessment_errors": [
+      {{"sentence": "exact sentence text", "issue": "specific problem", "evidence_lines": ["T1"]}}
+    ],
+    "plan_errors": [
+      {{"sentence": "exact sentence text", "issue": "specific problem", "evidence_lines": ["T1"]}}
+    ]
+  }},
+  "evidence_verification": {{
+    "hallucinations": [
+      {{"sentence": "exact sentence text", "why": "specific reason no evidence found", "section": "Subjective"}}
+    ],
+    "misattributions": [
+      {{"sentence": "exact sentence text", "claimed_speaker": "Patient", "actual_speaker": "Doctor", "evidence_lines": ["T1"]}}
+    ],
+    "missing_important_points": [
+      {{"topic": "specific clinical topic", "where_in_transcript": ["T1-T5"], "why_important": "clinical significance", "severity": "critical"}}
+    ]
+  }},
+  "consistency_issues": {{
+    "internal_conflicts": [
+      {{"issue": "specific conflict", "conflicting_sentences": ["sentence 1", "sentence 2"], "suggestion": "how to resolve"}}
+    ],
+    "redundancy_issues": [
+      {{"location": "specific SOAP section", "problem": "type of redundancy", "suggestion": "how to consolidate"}}
+    ]
+  }},
+  "improvement_priorities": [
+    {{"priority": "high", "issue": "specific problem", "action": "specific improvement needed"}}
+  ]
+}}
+
+==================== QUALITY ASSURANCE RULES ====================
+- **Evidence Rule**: Every clinical fact must have transcript support or be marked as hallucination
+- **SOAP Attribution Rule**: Speaker tags must match SOAP section requirements and transcript evidence  
+- **Completeness Rule**: All clinically significant topics in transcript must be addressed or noted as missing
+- **Consistency Rule**: No contradictory information within the note
+- **Scoring Rule**: Scores must reflect the systematic checks completed above
+
+**SOAP-Specific Classification Rules:**
+- **Subjective violations**: Clinician observations/reasoning in Subjective section
+- **Objective violations**: Patient reports or clinician reasoning in Objective section  
+- **Assessment violations**: Patient reports or raw data without clinical interpretation
+- **Plan violations**: Patient statements about what they will do vs. clinician recommendations
+
+**Before submitting evaluation:**
+1. ✅ Verified evidence for every claim
+2. ✅ Checked every speaker tag classification against SOAP requirements
+3. ✅ Scanned entire transcript for missing content
+4. ✅ Identified all internal contradictions
+5. ✅ Scores reflect systematic findings above
+
+Begin systematic evaluation now.

@@ -1,0 +1,105 @@
+You are a medical documentation formatting expert. Please reformat the following SOAP note according to the specified style requirements while maintaining clinical accuracy and completeness.
+
+**Current SOAP Note:**
+{current_note}
+
+**Format Requirements:**
+- Detail Level: {detail_level}  # brief/standard/detailed/comprehensive  
+- Organization Style: {organization_style}  # paragraph/bullet_point
+
+**CRITICAL REQUIREMENTS (Must Follow):**
+1. **Accuracy First**: NEVER introduce contradictions or factual errors during reformatting
+2. **Completeness Protection**: Do not remove any clinically significant information, regardless of word count targets
+3. **Consistency Check**: Ensure all statements within the note are internally consistent
+4. **Evidence Preservation**: MUST preserve ALL transcript tags in EXACT format [T#,T#-T#][SPEAKER #]
+
+**Transcript Reference Format Requirements:**
+- Each sentence MUST end with the exact citation format: [T#,T#-T#][SPEAKER #]
+- Example correct format: Patient reports difficulty urinating [T23-T25][SPEAKER 1]
+- Example incorrect format: Patient reports difficulty urinating T23-T25
+- NEVER omit the square brackets [ ] around transcript numbers
+- NEVER omit the [SPEAKER #] designation
+- Maintain exact spacing and punctuation as shown in the original note
+- In Subjective section, avoid repetitive "Patient reports" - start directly with the clinical information
+- Use concise phrasing while maintaining clinical accuracy
+
+**Detail Level Guidelines (Flexible based on content importance):**
+- **Brief**: Focus on primary diagnosis and critical findings (~300 words, but exceed if clinically necessary)
+- **Standard**: Complete clinical picture with key details (~300-700 words)
+- **Detailed**: Comprehensive documentation (~700-1200 words)
+- **Comprehensive**: Exhaustive documentation (1200+ words)
+
+**Organization Style Requirements:**
+
+**Paragraph Style:**
+- Use complete paragraphs and flowing sentences
+- Maintain smooth information flow for easy reading
+- Preserve traditional medical documentation narrative format
+- **MANDATORY citation format**: Each sentence must end with [T#,T#-T#][SPEAKER #]
+
+**Paragraph Organization Guidelines:**
+- **Subjective Section**: Organize into 3-4 focused paragraphs:
+  - Paragraph 1: Chief complaint and primary symptoms
+  - Paragraph 2: Medical history, procedures, and medications
+  - Paragraph 3: Review of systems and symptom denials
+  - Paragraph 4: Social history, lifestyle factors, and family history
+- **Objective Section**: Organize into 2-3 focused paragraphs:
+  - Paragraph 1: Laboratory results and diagnostic findings
+  - Paragraph 2: Physical examination findings
+  - Paragraph 3: Procedures and interventions performed today (if applicable)
+- **Assessment Section**: Organize into 2-3 focused paragraphs:
+  - Paragraph 1: Primary diagnosis and main clinical issues
+  - Paragraph 2: Secondary diagnoses and comorbidities
+  - Paragraph 3: Risk factors and monitoring needs (if applicable)
+- **Plan Section**: Organize into 2-3 focused paragraphs:
+  - Paragraph 1: Primary treatment plans and medication management
+  - Paragraph 2: Secondary interventions and preventive measures
+  - Paragraph 3: Follow-up arrangements and patient education
+
+**Paragraph Length Guidelines:**
+- Each paragraph should contain 3-6 related sentences
+- Avoid single-sentence paragraphs unless clinically justified
+- Avoid paragraphs longer than 8-10 sentences
+- Group related clinical information within the same paragraph
+- Use paragraph breaks to separate different clinical topics or themes
+
+**Bullet Point Style:**
+- Use bullet points (•) for clear organization
+- Keep each point focused but complete (1-2 lines preferred)
+- Ensure logical flow within sections
+- **MANDATORY citation format**: • Content description [T#,T#-T#][SPEAKER #]
+
+**Quality Safeguards:**
+- If reformatting creates any contradiction, preserve the original accurate version
+- If word count targets conflict with clinical completeness, prioritize completeness
+- Cross-check that no important clinical facts are lost during reformatting
+- Verify that Assessment and Plan sections remain actionable and complete
+- Ensure all four SOAP sections (Subjective, Objective, Assessment, Plan) are included
+
+**Quality Control Checklist:**
+Before outputting, verify that:
+- Every sentence has proper citation format [T#][SPEAKER #] or [T#-T#][SPEAKER #]
+- All square brackets are present
+- All speaker designations are included
+- Format matches exactly: [transcript reference][speaker reference]
+- All four SOAP sections are complete
+- No clinical contradictions exist
+- All critical information is preserved
+- Paragraph organization follows the specified guidelines
+- Each paragraph has appropriate length and focus
+
+**Output Instructions:**
+Provide the reformatted SOAP note that maintains clinical integrity while following the requested format style and paragraph organization guidelines.
+
+**FINAL VERIFICATION REQUIRED:**
+Before submitting, confirm that every single sentence ends with the complete citation format [T#][SPEAKER #] or [T#-T#][SPEAKER #] and that paragraph organization follows the specified structure. Any content missing proper format or organization is incorrect and must be fixed.
+
+**FINAL OUTPUT REQUIREMENTS:**
+- Output ONLY the SOAP note content
+- Do NOT include any explanatory text, headers, or formatting metadata
+- Do NOT use markdown bold (**text**) or other special formatting
+- Do NOT add separating lines (---) 
+- Start directly with "Subjective:" and end with "Speaker Role Mapping:"
+- Keep the exact same clean format as the input note
+
+Directly output the formatted SOAP note without explanation. Ensure compliance with specified detail level and organization style.

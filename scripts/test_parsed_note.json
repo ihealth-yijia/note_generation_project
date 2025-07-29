@@ -1,0 +1,33 @@
+{
+  "raw_note": "Subjective:\n• Patient reports difficulty urinating, describing the sensation as a \"urine pump\" [T23,T25][SPEAKER 1]  \n• Symptoms worsened after discontinuing terazosin about a month ago [T56-T60][SPEAKER 1]  \n• Reports increased urinary frequency [T70-T71][SPEAKER 1]  \n\nObjective:\n• Hemorrhoids present on exam but not inflamed [T298-T300][SPEAKER 0]  \n• Patient advised to use over-the-counter cream [T302-T303][SPEAKER 0]  \n\nAssessment:\n• Primary diagnosis is benign prostatic hyperplasia (BPH) [T69-T73][SPEAKER 0]  \n• Hemorrhoids present but not inflamed [T298-T300][SPEAKER 0]  \n\nPlan:\n• Restart terazosin using starter blister pack [T361,T375-T378][SPEAKER 0]  \n• Follow up with GU for further evaluation [T94,T226][SPEAKER 0]  \n• Schedule follow-up in six months [T391-T396][SPEAKER 0]  \n\nSpeaker Role Mapping:  \n[SPEAKER 0]: doctor  \n[SPEAKER 1]: patient",
+  "parsed_sections": {
+    "subjective": [
+      "Patient reports difficulty urinating, describing the sensation as a \"urine pump\"",
+      "Symptoms worsened after discontinuing terazosin about a month ago",
+      "Reports increased urinary frequency"
+    ],
+    "objective": [
+      "Hemorrhoids present on exam but not inflamed",
+      "Patient advised to use over-the-counter cream"
+    ],
+    "assessment": [
+      "Primary diagnosis is benign prostatic hyperplasia (BPH)",
+      "Hemorrhoids present but not inflamed"
+    ],
+    "plan": [
+      "Restart terazosin using starter blister pack",
+      "Follow up with GU for further evaluation",
+      "Schedule follow-up in six months"
+    ],
+    "speaker_role_mapping": {
+      "SPEAKER 0": "doctor",
+      "SPEAKER 1": "patient"
+    }
+  },
+  "metadata": {
+    "total_sections": 4,
+    "has_citations": true,
+    "detail_level": "standard",
+    "organization_style": "bullet_point"
+  }
+}
